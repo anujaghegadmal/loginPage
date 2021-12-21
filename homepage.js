@@ -5,7 +5,7 @@ var count = 0;
 
 menu.addEventListener("click", function(){
     count++;
-    if (count%2 == 0){
+    if (count%2 != 0){
         // console.log("show");
         sidebar.classList.remove("sidebarHide");
         sidebar.classList.add("sidebarShow");
